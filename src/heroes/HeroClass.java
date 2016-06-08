@@ -1,16 +1,13 @@
 package heroes;
 
 public class HeroClass {
-	public int health;
-	public int strength;
-	public int magic;
-	public int dodge;
+	public int health = 7;
+	public int strength = 3;
+	public int magic = 3;
+	public int dodge = 3;
 	
-	public HeroClass(int startHealth, int startStrength, int startMagic, int startDodge){
-				health = startHealth;
-				strength = startStrength;
-				magic = startMagic;
-				dodge = startDodge;
-		}
+	public HeroClass(){
+
+	}
 		
 }
