@@ -9,5 +9,28 @@ public class HeroClass {
 	public HeroClass(){
 
 	}
+	
+	public int getHealth() {
+		return health;
+	}
+	
+	public int getStrength(){
+		return strength;
+	}
+	
+	public int getMagic() {
+		return magic;
+	}
+	
+	public int getDodge() {
+		return dodge;
+	}
+	
+	public void printStats() {
+		System.out.println("Health: " + health);
+		System.out.println("Strength: " + strength);
+		System.out.println("Magic: " + magic);
+		System.out.println("Dodge: " + dodge);
+	}
 		
 }
