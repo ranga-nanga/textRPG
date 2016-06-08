@@ -6,8 +6,8 @@ import heroes.HeroClass;
 public class Main {
 
 	public static void main(String[] args) {
-		Barbarian Splurd = new Barbarian();
-	System.out.println(Splurd.getStrength());
+		Barbarian Splurd = new Barbarian("Splurd");
+		Splurd.printStats();
 	}
 
 }
